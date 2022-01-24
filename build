@@ -1,0 +1,7 @@
+#!/bin/sh
+
+docker buildx build . <Dockerfile
+
+# Or, alternatively:
+# DOCKER_BUILDKIT=1 docker build . <Dockerfile
+
