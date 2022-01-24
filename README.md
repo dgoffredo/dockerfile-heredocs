@@ -28,6 +28,9 @@ The ugly parts are:
 1. You have to use a new flavor of the `docker build` command.
 2. Your `Dockerfile` has to have the magical syntax version comment at the top.
 
+See the [build][3] script.
+
 [1]: https://www.docker.com/blog/introduction-to-heredocs-in-dockerfiles/
 [2]: https://docs.docker.com/develop/develop-images/build_enhancements/
+[3]: build
 
